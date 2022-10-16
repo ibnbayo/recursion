@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/recursion/static/css/main.de9473ac.css",
+    "main.js": "/recursion/static/js/main.4d0db811.js",
+    "index.html": "/recursion/index.html",
+    "main.de9473ac.css.map": "/recursion/static/css/main.de9473ac.css.map",
+    "main.4d0db811.js.map": "/recursion/static/js/main.4d0db811.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de9473ac.css",
+    "static/js/main.4d0db811.js"
+  ]
+}
