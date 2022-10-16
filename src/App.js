@@ -1,24 +1,23 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import Appbar  from './components/ResponsiveAppBar'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Appbar/>
+      <div className=' grid-rows-3'>
+        <div>
+        <h1 className='text-6xl font-extrabold justify-center'>Teaching has never been easier </h1>
+        <p>Host live classes, collaborate with learing mates and manage your tutors/students</p>
+        </div>
+        <img src='https://cdn.nerdschalk.com/wp-content/uploads/2020/05/nerdschalk.com-3x3-video-view-on-microsoft-teams.jpg?width=1300' alt='video-app'/>
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+          <a target="_blank" rel = "noreferrer" href='https://collaboration-video-app.netlify.app/'>Start a video</a>
+        </button>
+        
+      </div>
+    </>
   );
 }
 
